@@ -1,0 +1,142 @@
+body{
+ background-image: url('http://globaldigitizers.com/adminpanel/public/images/updated.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mains{
+  min-height: calc(100vh - 40px);
+}
+.navbar {
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+    padding-top: .5625rem;
+}
+      #file-chosen{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+}
+
+  .materialbtn{
+  border: 2px solid #043740 !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    width: 20%;
+    padding: .7rem .75rem !important;
+    color: #043740;
+    font-weight: 500 !important;
+    transition: 0.3s;
+  }
+  .materialbtn:hover{
+  color: #fff !important;
+  background:#043740 ;
+  }
+  .personalityheading{
+  font-size: 35px;
+  color: #043740;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  }
+  .span1 {
+    position: absolute;
+    left: 37%;
+    top: 50%;
+    font-size: 13px;
+    width: 11%;
+    color: #000
+}
+  .span2 {
+    position: absolute;
+    left: 39%;
+    top: 62%;
+    font-size: 13px;
+    width: 8%;
+    color: #000
+}
+.span3 {
+  position: absolute;
+    right: 39%;
+    top: 62%;
+    font-size: 13px;
+    width: 8%;
+    color: #000
+}
+.leftbtn{
+  margin-left: 17px;
+}
+.managetestbtn{
+  transform: translateX(330px);
+  margin-top: 30px;
+}
+
+.justify-content-center.secondbtnrow{
+  margin-top: 35px;
+}
+.materialbtn:hover{
+  color: #ffff00 !important;
+  background:#043740 ;
+  }
+  .materialbtn > a {
+
+color: #212529 !important;
+text-decoration: none !important;
+}
+.materialbtn:hover > a {
+
+color: #ffff00 !important;
+text-decoration: none !important;
+}
+      /* Height for devices larger than 576px */
+      @media (max-width: 992px) {
+          
+        .materialbtn{
+    width: 100%;
+  }
+  .managetestbtn{
+    transform: translateX(0px);
+    margin-top: 30px;
+  }
+  .justify-content-center.secondbtnrow{
+  margin-top: 35px;
+}
+.uploadocument{
+margin-top: 20px;
+}
+.logo-img{
+    width:45% !important;
+}
+.footer-logo-img{
+    width:45% !important;
+}
+.span1{
+ position: absolute;
+    left: 33%;
+    top: 39%;
+    font-size: 9px;
+    width: 33%;
+}
+.span2{
+position: absolute;
+    left: 33%;
+    top: 63%;
+    font-size: 9px;
+    width: 33%;
+}
+.span3{
+ position: absolute;
+    left: 33%;
+    top: 76%;
+    font-size: 9px;
+    width: 33%;
+}
+
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+      .leftbtn{
+  margin-left:0px;
+}

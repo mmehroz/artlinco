@@ -1,0 +1,106 @@
+body{
+    background-image: url('http://globaldigitizers.com/adminpanel/public/images/updated.png');
+height: 100%;
+background-repeat: no-repeat;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mains{
+    min-height: calc(100vh - 40px);
+}
+.mytable {
+background-color: #043740;
+color: #fff;
+margin-top: 40px;
+}
+.table td {
+    padding: 1rem !important;
+    vertical-align: middle !important;
+    border-top: 1px solid #dee2e6 !important;
+    text-transform: capitalize;
+}
+.editbtn {
+background: #ffff00;
+}
+.navbar {
+-webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+padding-top: .5625rem;
+}
+
+
+.materialbtn{
+border: 2px solid #043740 !important;
+border-top-left-radius: 16px !important;
+border-top-right-radius: 16px !important;
+border-bottom-left-radius: 16px !important;
+border-bottom-right-radius: 16px !important;
+width: 20%;
+padding: .7rem .75rem !important;
+color: #043740;
+font-weight: 500 !important;
+transition: 0.3s;
+margin-top: 150px;
+}
+.materialbtn:hover{
+color: #fff !important;
+background:#043740 ;
+}
+
+.leftbtn{
+margin-left: 17px;
+}
+
+.justify-content-center.secondbtnrow{
+margin-top: 35px;
+}
+.materialbtn:hover{
+color: #ffff00 !important;
+background:#043740 ;
+}
+.materialbtn > a {
+color: #212529 !important;
+text-decoration: none !important;
+}
+.materialbtn:hover > a {
+color: #ffff00 !important;
+text-decoration: none !important;
+}
+/* Height for devices larger than 576px */
+@media (max-width: 992px) {
+.table td, .table th {
+padding: 0.5rem;
+font-size:10px;
+vertical-align: top;
+border-top: 1px solid #dee2e6;
+}
+.editbtn {
+background: #ffff00;
+font-size: 10px;
+}
+.materialbtn{
+width: 50%;
+}
+.createuserbtn{
+margin-bottom: 40px;
+}
+.justify-content-center.secondbtnrow{
+margin-top: 35px;
+}
+.uploadocument{
+margin-top: 20px;
+}
+.logo-img{
+width:45% !important;
+}
+.footer-logo-img{
+width:45% !important;
+}
+
+}
+
+.navbar .nav-link {
+color: #fff !important;
+}
+.leftbtn{
+margin-left:0px;
+}

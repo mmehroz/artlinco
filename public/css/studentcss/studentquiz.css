@@ -1,0 +1,10 @@
+body{
+    background-image: url('http://globaldigitizers.com/adminpanel/public/images/updated.png');
+  height: 100%;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .mains{
+    min-height: calc(100vh - 40px);
+  }
